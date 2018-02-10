@@ -1,0 +1,4 @@
+{:up ["CREATE TABLE hn_items (id INTEGER PRIMARY KEY,
+                             url_hash BLOB,
+                             num_comments INTEGER)"]
+ :down ["DROP TABLE hn_items"]}
